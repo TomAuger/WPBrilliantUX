@@ -23,7 +23,6 @@ It depends who you ask.
 * influencers
 * researchers, short-listers
 * checkbox-tickers
-* non-customers
 
 ### Anyone else?
 
