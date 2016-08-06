@@ -2,13 +2,23 @@
 # Crafting Brilliant User Experiences with WordPress
 
 > Tom Auger
-> CTO, Art & Science
+> CTO, [Art & Science](http://artscience.ca)
 > tom@artscience.ca
+> 
 > @TomAuger
+
+---
+
+## This presentation is on GitHub
+
+https://github.com/TomAuger/WPBrilliantUX
+
+---
 
 ## What's "experience design"?
 
-* Think about the end-to-end experience
+Intentional problem-solving about the **end-to-end** experience
+
 * Information Architecture
 * Visual Experience
 * Content
@@ -16,15 +26,19 @@
 * Devices, Wearables
 * Social sphere, extending the experience
 
+---
+
 ## What's UX?
 
-> The experience a User Group has interacting with a digital affordance or property
+> The experience your User Groups has interacting with a digital affordance or property
 
+---
 
-## Who ARE these users?
+## Who ARE these "User Groups"?
 
 It depends who you ask.
 
+---
 
 ### Your clients, of course!
 
@@ -33,6 +47,8 @@ It depends who you ask.
 * influencers
 * researchers, short-listers
 * checkbox-tickers
+
+---
 
 ### Anyone else?
 
@@ -43,12 +59,14 @@ It depends who you ask.
 * admins
 * competition?
 
+---
+
 ### Machines?
 
 * search engines / schema
 * AT / a11y
 
-
+---
 
 ## User-Centric Experience Design Methodology
 
@@ -61,6 +79,8 @@ It depends who you ask.
 7. Determine your segmentation strategy
 8. Design Brilliant Experiences for those User Groups
 
+---
+
 
 ### Multiple UX?
 
@@ -68,10 +88,14 @@ Yes!
 
 But how do you deliver multiple experiences from the same site?
 
+---
+
 ### WordPress "Users" vs. non-users
 
 * `is_user_logged_in()` and `current_user_can()`
 * `is_admin()`
+
+---
 
 ### Mobile vs. Tablet vs. Desktop use cases
 
@@ -81,12 +105,16 @@ But how do you deliver multiple experiences from the same site?
 * [mobiledetect.net](http://mobiledetect.net/)!
 * JS & WP_API
 
+---
+
 ### Locale
 
 * JavaScript geolocation API [navigator.geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation)
 * GeoIP [Location Services](https://www.maxmind.com/en/geoip2-precision-services)
 * Enterprise Detection
 * i18n
+
+---
 
 ### User Self-Identification
 
@@ -95,16 +123,72 @@ But how do you deliver multiple experiences from the same site?
 * Wizard, guided help?
 * Pain points, calls to action
 
-
+---
 
 
 ## Understand your user groups
 
+---
+
 ### Empathy Mapping
+
 
 **Empathy** vs. **Sympathy**: Sympathy is having feelings in response to someone, empathy is having the *same* feelings.
 		
 > Empathy mapping helps you answer the question: "Our users need a better way to _X_  **because** _Y_ "
+
+---
+
+### Empathy Map
+
+![Empathy Mapping diagram for printout by Tom Auger](img/EmpathyMapPosterByTomAuger.png)
+
+[Download Empathy Map on GitHub](https://github.com/TomAuger/WPBrilliantUX/blob/master/img/EmpathyMapPosterByTomAuger.png)
+
+---
+
+### Creating an Empathy Map
+
+* **SEEING**
+	* What is their **environment**?
+	* **Who** else is in their environment?
+	* What **competitive** products do they see?
+* **HEARING**
+	* What are **others saying** about the topic?
+	* Who are they **influenced by**?
+	* What are the **messages** put out by the competition?
+
+---
+
+### Creating an Empathy Map (cont'd)
+
+* **THINKING (and feeling)**
+	* What are their **fears** (pains)?
+	* What are their **dreams and goals** (gains)?
+	* What are their **expectations** about the topic?
+	* What are they **emotional** about?
+* **SAYING**
+	* What do they do or say **in public**?
+	* What do they say **to you**?
+* **DOING**
+	* How do they **influence** others?
+	* What **actions** do they take?
+
+---
+
+*Example questions:*
+* How do they think about their *fears and hopes*?
+* What do they hear when *other people use your product*?
+* What do they see when they *use your product*? What is the environment?
+* What do they say or feel when using your product, whether in private or public?
+* What are their *pain points* when using your product?
+* Is this a *positive or a painful* experience for them?
+* What does a *typical day* look like in their world?
+* Do they hear *positive feedback* about your product from external sources?
+* What do they hope to *gain* from using your product?
+* Has your customer repeated *quotes* or defining words?
+
+---
 
 ### Personas & User Scenarios
 
@@ -114,15 +198,18 @@ But how do you deliver multiple experiences from the same site?
 
 *(see Jem's upcoming talk)*
 
-### User stories vs. Functional mapping
-
+---
 
 
 ## Crafting Brilliant Experiences
 
+---
+
 ### What's a Brilliant User Experience?
 
 > A discrete interaction with a digital property that appears to be designed expressly for the user currently having that experience.
+
+---
 
 ### The Five Dimensions of Web User Interaction
 		
@@ -131,6 +218,8 @@ But how do you deliver multiple experiences from the same site?
 * **3D: interface** intuitive, minimal, natural, recognizable
 * **4D: time** sequencing, pacing, animation, repeat visits
 * **5D: emotion** comes from empathy, relationship beyond the site
+
+---
 
 ### What are the characteristics of a Usable interface?
 		
@@ -142,11 +231,61 @@ But how do you deliver multiple experiences from the same site?
 * **Attractiveness**: how visually appealing is the interface?
 * **Accessibility**: how accessible is the interface to all users, regardless of ability, technology, or cultural bias?
 
+---
 
 ### Brilliant Experiences for your Clients
 
+* Consider intent-based targeting (See, Think, Do, Care) [Avinash Kaushik](http://www.kaushik.net/avinash/see-think-do-content-marketing-measurement-business-framework/)
+* Understand needs and behaviours
+* Provide the right path to goals
+* Measure, analyze, adjust
+
+---
+
 ### Brilliant Experiences for Staff
+
+* Craft the Administrative UX
+* Consider the Admin IA
+* Builders/themes (eg: [X-theme](http://theme.co/x/), [Cornerstone](https://theme.co/cornerstone/), [ACF](https://www.advancedcustomfields.com/))
+* Don't shy away from deep WP customization
+
+---
 
 ### Accessible Experiences for Everyone
 
+* Accessibility is about **access** not **ability**
+* We all benefit from Accessibility
+* Better UX == Better A11y
+
+---
+
 ### Brilliant Experiences for Machines
+
+Search engines like Google, Screen Readers and assistive technologies, feeds and alternative means of consuming content all need to "understand" your site's structure and content.
+
+* Semantic markup
+* Use microdata from [schema.org](http://schema.org/docs/gs.html)
+
+---
+
+## Care about the UX
+
+Brilliant experiences require:
+
+* Intentionality
+* Empathy
+* Technical Ability
+* Humility
+* Agility
+
+---
+
+## Questions?
+
+---
+
+## Thank you
+
+> Join @TomAuger @BrentKobayashi @Pasada and guests on Agency Chat Every Wednesday at 2:00 PM EST
+
+https://blab.im/agencychatshow
