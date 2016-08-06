@@ -1,14 +1,24 @@
 
 # Crafting Brilliant User Experiences with WordPress
 
+> Tom Auger
+> CTO, Art & Science
+> tom@artscience.ca
+> @TomAuger
 
-## What's "digital experience design"?
+## What's "experience design"?
+
+* Think about the end-to-end experience
+* Information Architecture
+* Visual Experience
+* Content
+* Interaction Design
+* Devices, Wearables
+* Social sphere, extending the experience
 
 ## What's UX?
 
-> The interaction of a User Group with a digital affordance or property
-
-
+> The experience a User Group has interacting with a digital affordance or property
 
 
 ## Who ARE these users?
@@ -56,7 +66,7 @@ It depends who you ask.
 
 Yes!
 
-But how?
+But how do you deliver multiple experiences from the same site?
 
 ### WordPress "Users" vs. non-users
 
@@ -69,6 +79,7 @@ But how?
 * `is_mobile()`?!
 * [Mobble](https://github.com/scottsweb/mobble/blob/master/Mobile_Detect.php)?
 * [mobiledetect.net](http://mobiledetect.net/)!
+* JS & WP_API
 
 ### Locale
 
