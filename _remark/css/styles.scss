@@ -12,6 +12,16 @@ h1, h2, h3 {
     font-weight: normal;
 }
 
+h2, h3 {
+    position: absolute;
+    top: 30px;
+}
+
+blockquote {
+    border-left: 15px solid grey;
+    background-color: #ddd;
+    padding: 5px 30px;
+}
 
   
 img {
@@ -19,10 +29,14 @@ img {
 }
 
 .remark-slide-content {
-    font-size: 30px;
+    height: 100%;
+    vertical-align: middle;
+    position: relative;
+    
+    font-size: 24px;
     
     h1 {
-        font-size: 3em;
+        font-size: 4em;
         margin-top: 0;
     }
 }

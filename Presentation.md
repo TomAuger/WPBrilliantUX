@@ -19,6 +19,8 @@ https://github.com/TomAuger/WPBrilliantUX
 
 Intentional problem-solving about the **end-to-end** experience
 
+--
+
 * Information Architecture
 * Visual Experience
 * Content
@@ -30,7 +32,14 @@ Intentional problem-solving about the **end-to-end** experience
 
 ## What's UX?
 
-> The experience your User Groups has interacting with a digital affordance or property
+> The experience your User Groups have interacting with a digital affordance or property
+
+---
+
+
+### What's a Brilliant User Experience?
+
+> A discrete interaction with a digital property that appears to be designed expressly for the user currently having that experience.
 
 ---
 
@@ -42,8 +51,14 @@ It depends who you ask.
 
 ### Your clients, of course!
 
-* purchasers
+--
+
+* purchasers!
+--
+
 * decision-makers
+--
+
 * influencers
 * researchers, short-listers
 * checkbox-tickers
@@ -52,32 +67,52 @@ It depends who you ask.
 
 ### Anyone else?
 
+--
+
 * job seekers
+
 * media
-* staff
+
 * sales
+
 * admins
+
 * competition?
 
 ---
 
 ### Machines?
 
-* search engines / schema
 * AT / a11y
+* search engines / schema
 
 ---
 
 ## User-Centric Experience Design Methodology
 
 1. List as many user groups as you can
+--
+
 2. List your project success criteria / project objectives
+--
+
 3. Revisit your user groups, maybe add more
+--
+
 4. Rank them (unique numbers only!)
+--
+
 5. Determine your cutoff for Target User Groups
+--
+
 6. Understand your Target User Groups
+--
+
 7. Determine your segmentation strategy
+--
+
 8. Design Brilliant Experiences for those User Groups
+
 
 ---
 
@@ -87,6 +122,15 @@ It depends who you ask.
 Yes!
 
 But how do you deliver multiple experiences from the same site?
+
+---
+
+### User Self-Identification
+
+* IA, baby!
+* Profile self-selection
+* Wizard, guided help?
+* Pain points, calls to action
 
 ---
 
@@ -116,15 +160,6 @@ But how do you deliver multiple experiences from the same site?
 
 ---
 
-### User Self-Identification
-
-* IA, baby!
-* Profile self-selection
-* Wizard, guided help?
-* Pain points, calls to action
-
----
-
 
 ## Understand your user groups
 
@@ -134,6 +169,8 @@ But how do you deliver multiple experiences from the same site?
 
 
 **Empathy** vs. **Sympathy**: Sympathy is having feelings in response to someone, empathy is having the *same* feelings.
+
+--
 		
 > Empathy mapping helps you answer the question: "Our users need a better way to _X_  **because** _Y_ "
 
@@ -268,7 +305,19 @@ Search engines like Google, Screen Readers and assistive technologies, feeds and
 
 ---
 
-## Care about the UX
+## Care about the UX.
+
+---
+
+## Care about the User(s).
+
+---
+
+## Care about the Experience.
+
+---
+
+## Care about the User Experience.
 
 Brilliant experiences require:
 

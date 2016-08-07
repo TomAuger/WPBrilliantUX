@@ -1,1 +1,64 @@
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);body{font-family:'Droid Serif'}h1,h2,h3{font-family:'Yanone Kaffeesatz';font-weight:normal}img{width:100%}.remark-slide-content{font-size:30px}.remark-slide-content h1{font-size:3em;margin-top:0}.center ul,.center ol{width:80%;margin-left:10%}.center ul li,.center ol li{text-align:left;line-height:1.75em}.center pre{text-align:left}.remark-code{display:block;padding:0.5em}.remark-code,.remark-inline-code{background-color:#CCC;color:black;font-family:'Ubuntu Mono'}.remark-code-line.remark-code-line-highlighted,.code-highlight,.ch{background-color:rgba(255,255,0,0.85);color:black}.remark-code-line.remark-code-line-highlighted span,.code-highlight span,.ch span{color:black !important}.remark-code-line.remark-code-line-highlighted code,.code-highlight code,.ch code{background-color:transparent}
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+body {
+  font-family: 'Droid Serif'; }
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal; }
+
+h2, h3 {
+  position: absolute;
+  top: 30px; }
+
+blockquote {
+  border-left: 15px solid grey;
+  background-color: #ddd;
+  padding: 5px 30px; }
+
+img {
+  width: 100%; }
+
+.remark-slide-content {
+  height: 100%;
+  vertical-align: middle;
+  position: relative;
+  font-size: 24px; }
+  .remark-slide-content h1 {
+    font-size: 4em;
+    margin-top: 0; }
+
+.center ul, .center ol {
+  width: 80%;
+  margin-left: 10%; }
+  .center ul li, .center ol li {
+    text-align: left;
+    line-height: 1.75em; }
+.center pre {
+  text-align: left; }
+
+.remark-code {
+  display: block;
+  padding: 0.5em; }
+
+.remark-code, .remark-inline-code {
+  background-color: #CCC;
+  color: black;
+  font-family: 'Ubuntu Mono'; }
+
+.remark-code-line.remark-code-line-highlighted,
+.code-highlight,
+.ch {
+  background-color: rgba(255, 255, 0, 0.85);
+  color: black; }
+  .remark-code-line.remark-code-line-highlighted span,
+  .code-highlight span,
+  .ch span {
+    color: black !important; }
+  .remark-code-line.remark-code-line-highlighted code,
+  .code-highlight code,
+  .ch code {
+    background-color: transparent; }
+
+/*# sourceMappingURL=styles.css.map */
